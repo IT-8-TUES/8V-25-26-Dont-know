@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резервация | Българска Механа</title>
+    <link rel="stylesheet" href="../css/Rezervacii.css">
+</head>
+<body>
+
+    <header>
+        <h1>Българска Механа</h1>
+
+        <nav>
+            <a href="homepage.html"><button>Начало</button></a>
+
+            <select>
+                <option>Меню</option>
+                <option>Предястия</option>
+                <option>Основни</option>
+                <option>Десерти</option>
+                <option>Напитки</option>
+            </select>
+
+            <button>Ревюта</button>
+
+            <a href="our-staff.html">
+                <button>Нашият екип</button>
+            </a>
+
+            <a href="forms.html">
+                <button>Резервация</button>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="reservation-section">
+            <h2>Направете резервация</h2>
+
+            <p class="reservation-intro">
+                Запазете своята маса в <strong>Българска Механа</strong> и се насладете на
+                традиционна българска трапеза в уютна атмосфера. Моля, попълнете формата
+                по-долу и ние ще потвърдим резервацията ви.
+            </p>
+
+            <form class="reservation-form" action="#" method="post">
+
+                <div class="form-group">
+                    <label for="name">Име и фамилия</label>
+                    <input type="text" id="name" name="name" placeholder="Иван Иванов" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Телефон</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+359 88 888 8888" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Имейл</label>
+                    <input type="email" id="email" name="email" placeholder="ivan@example.com">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">Дата</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="time">Час</label>
+                        <input type="time" id="time" name="time" min="11:00" max="22:00" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Брой гости</label>
+                    <select id="guests" name="guests" required>
+                        <option value="">-- Изберете --</option>
+                        <option value="1">1 човек</option>
+                        <option value="2">2 човека</option>
+                        <option value="3">3 човека</option>
+                        <option value="4">4 човека</option>
+                        <option value="5">5 човека</option>
+                        <option value="6">6 човека</option>
+                        <option value="7+">7 или повече</option>
+                    </select>
+                </div>
+ 
+                <div class="form-group">
+                    <label for="notes">Допълнителни бележки</label>
+                    <textarea id="notes" name="notes" rows="4" placeholder="Специални желания, алергии, повод за събирането..."></textarea>
+                </div>
+ 
+                <button type="submit" class="submit-btn">Изпрати резервация</button>
+ 
+            </form>
+        </section>
+    </main>
+ 
+    <footer>
+        <p>© 2026 Българска Механа</p>
+    </footer>
+ 
+</body>
+</html>

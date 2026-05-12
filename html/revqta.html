@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ревюта | Българска Механа</title>
+    <link rel="stylesheet" href="../css/revqta.css">
+</head>
+<body>
+
+    <header>
+        <h1>Българска Механа</h1>
+
+        <nav>
+            <a href="homepage.html"><button>Начало</button></a>
+
+            <select>
+                <option>Меню</option>
+                <option>Предястия</option>
+                <option>Основни</option>
+                <option>Десерти</option>
+                <option>Напитки</option>
+            </select>
+
+            <a href="reviews.html"><button>Ревюта</button></a>
+
+            <a href="our-staff.html">
+                <button>Нашият екип</button>
+            </a>
+
+            <a href="forms.html">
+                <button>Резервация</button>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="reviews-section">
+            <h2>Какво казват нашите гости</h2>
+
+            <p class="reviews-intro">
+                Радваме се на топли думи от нашите гости. Прочетете какво споделят те
+                за своето изживяване в <strong>Българска Механа</strong>.
+            </p>
+
+            <div class="reviews-container">
+
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">
+                        „Невероятна атмосфера и автентична българска кухня! Шопската салата
+                        и каварма бяха просто фантастични. Определено ще се върна!"
+                    </p>
+                    <div class="review-author">
+                        <span class="author-name">Мария Колева</span>
+                        <span class="review-date">Март 2026</span>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">
+                        „Идеалното място за семейна вечеря. Персоналът е изключително любезен,
+                        а порциите са щедри. Народната музика в петък беше чудесна!"
+                    </p>
+                    <div class="review-author">
+                        <span class="author-name">Георги Димитров</span>
+                        <span class="review-date">Февруари 2026</span>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">★★★★☆</div>
+                    <p class="review-text">
+                        „Много уютно място с домашна кухня. Шкембе чорбата е точно такава,
+                        каквато трябва да бъде. Препоръчвам на всички!"
+                    </p>
+                    <div class="review-author">
+                        <span class="author-name">Елена Стоянова</span>
+                        <span class="review-date">Януари 2026</span>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">
+                        „Прекрасно изживяване от начало до край. Резервирахме маса за рождения
+                        ден на майка ми и всичко беше перфектно организирано. Браво на екипа!"
+                    </p>
+                    <div class="review-author">
+                        <span class="author-name">Стефан Николов</span>
+                        <span class="review-date">Декември 2025</span>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">★★★★☆</div>
+                    <p class="review-text">
+                        „Вкусна храна на добри цени. Атмосферата те пренася в друго време.
+                        Единственото желание е малко по-дълго работно време."
+                    </p>
+                    <div class="review-author">
+                        <span class="author-name">Ивана Петрова</span>
+                        <span class="review-date">Ноември 2025</span>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">
+                        „Най-добрата механа в града! Баницата е невероятна, а домашното
+                        вино — просто прекрасно. Задължително посещение!"
+                    </p>
+                    <div class="review-author">
+                        <span class="author-name">Красимир Тодоров</span>
+                        <span class="review-date">Октомври 2025</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="write-review-section">
+            <h2>Напишете ревю</h2>
+
+            <form class="review-form" action="#" method="post">
+
+                <div class="form-group">
+                    <label for="reviewer-name">Вашето име</label>
+                    <input type="text" id="reviewer-name" name="reviewer-name" placeholder="Иван Иванов" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="rating">Оценка</label>
+                    <select id="rating" name="rating" required>
+                        <option value="">-- Изберете оценка --</option>
+                        <option value="5">★★★★★ — Отлично</option>
+                        <option value="4">★★★★☆ — Много добро</option>
+                        <option value="3">★★★☆☆ — Добро</option>
+                        <option value="2">★★☆☆☆ — Задоволително</option>
+                        <option value="1">★☆☆☆☆ — Лошо</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="review-text">Вашето ревю</label>
+                    <textarea id="review-text" name="review-text" rows="5" placeholder="Споделете своето изживяване..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Изпрати ревю</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Българска Механа</p>
+    </footer>
+
+</body>
+</html>
