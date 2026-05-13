@@ -1,0 +1,179 @@
+/* ===== BASE ===== */
+body {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200924/pngtree-scottish-style-red-plaid-background-image_399498.jpg');
+    background-repeat: repeat;
+    background-size: 1500px 1500px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #fdf6ee;
+    color: #2c1a0e;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+}
+ 
+/* ===== HEADER ===== */
+header {
+    background-color: #5c2a0e;
+    color: #fdf6ee;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    border-bottom: 4px solid #a0522d;
+    margin: 0;
+}
+ 
+header h1 {
+    font-size: 2.4rem;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    text-shadow: 1px 2px 4px rgba(0,0,0,0.4);
+}
+ 
+/* ===== NAV ===== */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+ 
+nav button {
+    background-color: transparent;
+    color: #fdf6ee;
+    border: 1.5px solid #d4956a;
+    padding: 0.45rem 1.1rem;
+    border-radius: 4px;
+    font-family: Georgia, serif;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    margin: 0;
+}
+ 
+nav button:hover {
+    background-color: #a0522d;
+    color: #fff;
+}
+ 
+nav select {
+    background-color: transparent;
+    color: #fdf6ee;
+    border: 1.5px solid #d4956a;
+    padding: 0.45rem 0.8rem;
+    border-radius: 4px;
+    font-family: Georgia, serif;
+    font-size: 0.95rem;
+    cursor: pointer;
+    margin: 0;
+}
+ 
+nav select option {
+    background-color: #5c2a0e;
+    color: #fdf6ee;
+}
+ 
+nav a {
+    text-decoration: none;
+}
+ 
+/* ===== MAIN ===== */
+main {
+    flex-grow: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem;
+}
+ 
+/* ===== STAFF SECTION ===== */
+.staff-section {
+    background-color: #fff9f2;
+    border: 1px solid #e0c9b0;
+    border-radius: 8px;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 2px 8px rgba(92, 42, 14, 0.07);
+    margin: 0;
+}
+ 
+.staff-section h2 {
+    font-size: 1.75rem;
+    color: #5c2a0e;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #d4956a;
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.5px;
+}
+ 
+.staff-intro {
+    font-size: 1rem;
+    color: #3d2010;
+    margin-top: 0;
+    margin-bottom: 1.75rem;
+    padding: 0;
+}
+ 
+/* ===== STAFF CONTAINER ===== */
+.staff-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin: 0;
+    padding: 0;
+}
+ 
+/* ===== STAFF CARD ===== */
+.staff-card {
+    flex: 1 1 200px;
+    background-color: #fdf0e0;
+    border: 1px solid #e0c9b0;
+    border-radius: 8px;
+    padding: 1.5rem 1.25rem;
+    text-align: center;
+}
+ 
+
+ 
+.staff-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #a0522d;
+    margin-bottom: 1rem;
+}
+ 
+.staff-card h3 {
+    font-size: 1.1rem;
+    color: #5c2a0e;
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+}
+ 
+.staff-card p {
+    font-size: 0.95rem;
+    color: #3d2010;
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+    padding: 0;
+}
+ 
+/* ===== FOOTER ===== */
+footer {
+    background-color: #5c2a0e;
+    letter-spacing: 0.1rem;
+    color: #d4956a;
+    text-align: left;
+    padding: 1.25rem;
+    margin: 0rem;
+    font-size: 0.9rem;
+    border-top: 4px solid #a0522d;
+}
